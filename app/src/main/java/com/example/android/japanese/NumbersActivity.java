@@ -1,4 +1,4 @@
-package com.example.android.miwok;
+package com.example.android.japanese;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -22,15 +22,15 @@ public class NumbersActivity extends AppCompatActivity {
 
 
         words.add(new Word ("one", "ichi"));
-        words.add(new Word ("one", "ni"));
-        words.add(new Word ("one", "san"));
-        words.add(new Word ("one", "yon"));
-        words.add(new Word ("one", "go"));
-        words.add(new Word ("one", "roku"));
-        words.add(new Word ("one", "nana"));
-        words.add(new Word ("one", "hachi"));
-        words.add(new Word ("one", "kyuu"));
-        words.add(new Word ("one", "juu"));
+        words.add(new Word ("two", "ni"));
+        words.add(new Word ("three", "san"));
+        words.add(new Word ("four", "yon"));
+        words.add(new Word ("five", "go"));
+        words.add(new Word ("six", "roku"));
+        words.add(new Word ("seven", "nana"));
+        words.add(new Word ("eight", "hachi"));
+        words.add(new Word ("nine", "kyuu"));
+        words.add(new Word ("ten", "juu"));
 
 
 //        int index = 0;

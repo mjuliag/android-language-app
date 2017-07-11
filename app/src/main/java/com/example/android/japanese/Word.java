@@ -1,4 +1,4 @@
-package com.example.android.miwok;
+package com.example.android.japanese;
 
 /**
  * Created by julia on 7/6/2017.
@@ -9,19 +9,19 @@ public class Word {
     /** Default translation for the word */
     private String mDefaultTranslation;
 
-    /** Miwok translation for the word */
-    private String mMiwokTranslation;
+    /** japanese translation for the word */
+    private String mjapaneseTranslation;
 
     /**
      * Create a new Word object.
      *
      * @param defaultTranslation is the word in a language that the user is already familiar with
      *                           (such as English)
-     * @param miwokTranslation is the word in the Miwok language
+     * @param japaneseTranslation is the word in the japanese language
      */
-    public Word(String defaultTranslation, String miwokTranslation) {
+    public Word(String defaultTranslation, String japaneseTranslation) {
         mDefaultTranslation = defaultTranslation;
-        mMiwokTranslation = miwokTranslation;
+        mjapaneseTranslation = japaneseTranslation;
     }
 
     /**
@@ -32,10 +32,10 @@ public class Word {
     }
 
     /**
-     * Get the Miwok translation of the word.
+     * Get the japanese translation of the word.
      */
-    public String getMiwokTranslation() {
-        return mMiwokTranslation;
+    public String getjapaneseTranslation() {
+        return mjapaneseTranslation;
     }
 
 }
