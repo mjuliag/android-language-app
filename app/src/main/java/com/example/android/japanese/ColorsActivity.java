@@ -16,13 +16,13 @@ public class ColorsActivity extends AppCompatActivity {
         ArrayList<Word> words = new ArrayList<Word>();
 
 
-        words.add(new Word ("red", "aka"));
-        words.add(new Word ("green", "midori"));
-        words.add(new Word ("brown", "kasshoku"));
+        words.add(new Word ("red", "aka", R.drawable.color_red));
+        words.add(new Word ("green", "midori", R.drawable.color_green));
+        words.add(new Word ("brown", "kasshoku", R.drawable.color_brown));
         words.add(new Word ("orange", "orenji"));
-        words.add(new Word ("black", "kuro"));
-        words.add(new Word ("white", "shiro"));
-        words.add(new Word ("yellow", "kiiro"));
+        words.add(new Word ("black", "kuro", R.drawable.color_black));
+        words.add(new Word ("white", "shiro", R.drawable.color_white));
+        words.add(new Word ("yellow", "kiiro", R.drawable.color_dusty_yellow));
         words.add(new Word ("blue", "ao"));
         words.add(new Word ("purple", "murasaki"));
         words.add(new Word ("pink", "pinku"));

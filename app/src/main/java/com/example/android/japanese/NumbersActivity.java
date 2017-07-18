@@ -21,16 +21,16 @@ public class NumbersActivity extends AppCompatActivity {
 //        words.add(w);
 
 
-        words.add(new Word ("one", "ichi"));
-        words.add(new Word ("two", "ni"));
-        words.add(new Word ("three", "san"));
-        words.add(new Word ("four", "yon"));
-        words.add(new Word ("five", "go"));
-        words.add(new Word ("six", "roku"));
-        words.add(new Word ("seven", "nana"));
-        words.add(new Word ("eight", "hachi"));
-        words.add(new Word ("nine", "kyuu"));
-        words.add(new Word ("ten", "juu"));
+        words.add(new Word ("one", "ichi", R.drawable.number_one));
+        words.add(new Word ("two", "ni", R.drawable.number_two));
+        words.add(new Word ("three", "san", R.drawable.number_three));
+        words.add(new Word ("four", "yon", R.drawable.number_four));
+        words.add(new Word ("five", "go", R.drawable.number_five));
+        words.add(new Word ("six", "roku", R.drawable.number_six));
+        words.add(new Word ("seven", "nana", R.drawable.number_seven));
+        words.add(new Word ("eight", "hachi", R.drawable.number_eight));
+        words.add(new Word ("nine", "kyuu", R.drawable.number_nine));
+        words.add(new Word ("ten", "juu", R.drawable.number_ten));
 
 
 //        int index = 0;

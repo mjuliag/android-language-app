@@ -7,10 +7,13 @@ package com.example.android.japanese;
 public class Word {
 
     /** Default translation for the word */
-    private String mDefaultTranslation;
+    private String defaultTranslations;
 
     /** japanese translation for the word */
-    private String mjapaneseTranslation;
+    private String japaneseTranslations;
+
+    /** image for the word */
+    private int imageResourceIds;
 
     /**
      * Create a new Word object.
@@ -20,22 +23,35 @@ public class Word {
      * @param japaneseTranslation is the word in the japanese language
      */
     public Word(String defaultTranslation, String japaneseTranslation) {
-        mDefaultTranslation = defaultTranslation;
-        mjapaneseTranslation = japaneseTranslation;
+        defaultTranslations = defaultTranslation;
+        japaneseTranslations = japaneseTranslation;
+    }
+
+    public Word(String defaultTranslation, String japaneseTranslation, int imageResourceId) {
+        defaultTranslations = defaultTranslation;
+        japaneseTranslations = japaneseTranslation;
+        imageResourceIds = imageResourceId;
     }
 
     /**
      * Get the default translation of the word.
      */
     public String getDefaultTranslation() {
-        return mDefaultTranslation;
+        return defaultTranslations;
     }
 
     /**
      * Get the japanese translation of the word.
      */
     public String getjapaneseTranslation() {
-        return mjapaneseTranslation;
+        return japaneseTranslations;
+    }
+
+    /**
+     * Get the image of the word.
+     */
+    public int getImageResourceId() {
+        return imageResourceIds;
     }
 
 }
