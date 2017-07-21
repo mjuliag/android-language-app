@@ -12,6 +12,8 @@ public class Word {
     /** japanese translation for the word */
     private String japaneseTranslations;
 
+
+
     /** image for the word */
     private int imageResourceIds;
 
@@ -53,5 +55,6 @@ public class Word {
     public int getImageResourceId() {
         return imageResourceIds;
     }
+
 
 }
