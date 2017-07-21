@@ -13,19 +13,18 @@ public class ColorsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.words_list);
 
-        ArrayList<Word> words = new ArrayList<Word>();
-
+        ArrayList<Word> words = new ArrayList<>();
 
         words.add(new Word ("red", "aka", R.drawable.color_red));
         words.add(new Word ("green", "midori", R.drawable.color_green));
         words.add(new Word ("brown", "kasshoku", R.drawable.color_brown));
-        words.add(new Word ("orange", "orenji"));
+        words.add(new Word ("orange", "orenji", R.drawable.color_orange));
         words.add(new Word ("black", "kuro", R.drawable.color_black));
         words.add(new Word ("white", "shiro", R.drawable.color_white));
-        words.add(new Word ("yellow", "kiiro", R.drawable.color_dusty_yellow));
-        words.add(new Word ("blue", "ao"));
-        words.add(new Word ("purple", "murasaki"));
-        words.add(new Word ("pink", "pinku"));
+        words.add(new Word ("yellow", "kiiro", R.drawable.color_mustard_yellow));
+        words.add(new Word ("blue", "ao", R.drawable.color_blue));
+        words.add(new Word ("purple", "murasaki", R.drawable.color_purple));
+        words.add(new Word ("pink", "pinku", R.drawable.color_pink));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
