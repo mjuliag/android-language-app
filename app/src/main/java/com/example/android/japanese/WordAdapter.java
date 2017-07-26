@@ -22,9 +22,9 @@ public class WordAdapter extends ArrayAdapter<Word> {
     private int colorResourceId;
 
 
-    public WordAdapter(Activity context, ArrayList<Word> words, int colorResourceId) {
+    public WordAdapter(Activity context, ArrayList<Word> words, int colorResourceIds) {
         super(context, 0, words);
-        colorResourceId = colorResourceId;
+        colorResourceId = colorResourceIds;
     }
 
     @NonNull
