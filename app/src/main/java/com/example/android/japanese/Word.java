@@ -25,6 +25,8 @@ public class Word {
     private static final int NO_IMAGE_PROVIDED = -1;
 
 
+
+
     /**
      * Create a new Word object.
      *
@@ -35,6 +37,7 @@ public class Word {
     public Word(String defaultTranslation, String japaneseTranslation) {
         defaultTranslations = defaultTranslation;
         japaneseTranslations = japaneseTranslation;
+
     }
 
     public Word(String defaultTranslation, String japaneseTranslation, int imageResourceId) {
