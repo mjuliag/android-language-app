@@ -13,9 +13,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by julia on 7/6/2017.
- */
 
 public class WordAdapter extends ArrayAdapter<Word> {
 
