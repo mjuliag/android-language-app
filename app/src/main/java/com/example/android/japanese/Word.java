@@ -24,7 +24,7 @@ public class Word {
 
     private static final int NO_IMAGE_PROVIDED = -1;
 
-
+    private int audioFileId;
 
 
     /**
@@ -34,16 +34,19 @@ public class Word {
      *                            (such as English)
      * @param japaneseTranslation is the word in the japanese language
      */
-    public Word(String defaultTranslation, String japaneseTranslation) {
+    public Word(String defaultTranslation, String japaneseTranslation, int audioFileIds) {
         defaultTranslations = defaultTranslation;
         japaneseTranslations = japaneseTranslation;
+        audioFileId = audioFileIds;
+
 
     }
 
-    public Word(String defaultTranslation, String japaneseTranslation, int imageResourceId) {
+    public Word(String defaultTranslation, String japaneseTranslation, int imageResourceId, int audioFileIds) {
         defaultTranslations = defaultTranslation;
         japaneseTranslations = japaneseTranslation;
         imageResourceIds = imageResourceId;
+        audioFileId = audioFileIds;
     }
 
     /**
@@ -67,10 +70,12 @@ public class Word {
         return imageResourceIds;
     }
 
-    public boolean hasImage(){
+    public boolean hasImage() {
 
         return imageResourceIds != NO_IMAGE_PROVIDED;
     }
 
-
+    public int getAudioFileId() {
+        return audioFileId;
+    }
 }

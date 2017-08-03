@@ -45,7 +45,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         defaultTextView.setText(currentWord.getDefaultTranslation());
 
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.image_view);
-        // Get the image resource ID from the current AndroidFlavor object and
+        // Get the image resource ID from the current Word object and
         // set the image to iconView
         if (currentWord.hasImage()) {
             iconView.setImageResource(currentWord.getImageResourceId());
