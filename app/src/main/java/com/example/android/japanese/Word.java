@@ -39,14 +39,15 @@ public class Word {
         japaneseTranslations = japaneseTranslation;
         audioFileId = audioFileIds;
 
-
     }
+
 
     public Word(String defaultTranslation, String japaneseTranslation, int imageResourceId, int audioFileIds) {
         defaultTranslations = defaultTranslation;
         japaneseTranslations = japaneseTranslation;
         imageResourceIds = imageResourceId;
         audioFileId = audioFileIds;
+
     }
 
     /**
@@ -78,4 +79,5 @@ public class Word {
     public int getAudioFileId() {
         return audioFileId;
     }
+
 }
